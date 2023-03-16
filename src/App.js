@@ -18,6 +18,7 @@ import Review1 from './HOOKs/Review1'
 import HelloWorld from './dailyparctice/FunHelloWorld';
 import ClaHelloWorld from './dailyparctice/ClaHelloWorld';
 import Hello1 from './dailyparctice/JSXHello';
+import LifeCycleA from './components/LifeCycleA';
 
 function App() {
   return (
@@ -44,10 +45,11 @@ function App() {
       {/* <HookCounterThree /> */}
       {/* <HookCounterFour /> */}
       {/* <Review /> */}
-      <Review1 />
+      {/* <Review1 /> */}
       {/* <HelloWorld />
       <ClaHelloWorld />
       <Hello1 /> */}
+      <LifeCycleA />
     </div>
   );
 }
