@@ -97,7 +97,7 @@ import React, { Component, useState } from 'react'
 
 
 function UseStateFunction() {
-    const [items, setItems] = useState([])
+    const [items, setItems] = useState([10,60,50])
 
     const addItem = () => {
         setItems([...items,{
