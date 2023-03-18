@@ -19,6 +19,13 @@ import HelloWorld from './dailyparctice/FunHelloWorld';
 import ClaHelloWorld from './dailyparctice/ClaHelloWorld';
 import Hello1 from './dailyparctice/JSXHello';
 import LifeCycleA from './components/LifeCycleA';
+import ClassCounterOne from './HOOKs/ClassCounterOne';
+import HookCounterOne from './HOOKs/HookCounterOne';
+import FunctionalComponent from './dailyparctice/FunctionalComponet';
+import ClassComponent from './dailyparctice/ClassComponet';
+import Counter1 from './dailyparctice/Counter1';
+import UseStateFunction from './dailyparctice/useStateFunction';
+
 
 function App() {
   return (
@@ -49,7 +56,19 @@ function App() {
       {/* <HelloWorld />
       <ClaHelloWorld />
       <Hello1 /> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      {/* <ClassCounterOne /> */}
+      {/* <HookCounterOne /> */}
+
+      <FunctionalComponent name='Manju' lastname='Reddy'> <p>
+        hello child
+      </p>
+      </FunctionalComponent>
+      <FunctionalComponent name='natha'/>
+      <FunctionalComponent name='PM'/>
+      {/* <ClassComponent name='Reddy'/> */}
+      <Counter1 />
+      <UseStateFunction />
     </div>
   );
 }
