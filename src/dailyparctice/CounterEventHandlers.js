@@ -1,4 +1,6 @@
-// import React, { Component, useState } from 'react'
+import React, { Component, useState } from 'react'
+
+
 
 //  class Counter1 extends Component {
 //     constructor(props) {
@@ -34,7 +36,9 @@
 //   )
 // }
 
-import React, { Component } from 'react'
+
+
+// import React, { Component } from 'react'
 
 export class Counter1 extends Component {
   constructor(props) {
@@ -43,7 +47,7 @@ export class Counter1 extends Component {
     this.state = {
        message: 'Hello'
     }
-    this.submit=this.submit.bind(this)
+    // this.submit=this.submit.bind(this)
   }
   submit = () => {
     this.setState({

@@ -23,8 +23,11 @@ import ClassCounterOne from './HOOKs/ClassCounterOne';
 import HookCounterOne from './HOOKs/HookCounterOne';
 import FunctionalComponent from './dailyparctice/FunctionalComponet';
 import ClassComponent from './dailyparctice/ClassComponet';
-import Counter1 from './dailyparctice/Counter1';
+import Counter1 from './dailyparctice/CounterEventHandlers';
 import UseStateFunction from './dailyparctice/useStateFunction';
+import Test from './components/Test';
+import Form from './dailyparctice/Form';
+import Demo from './dailyparctice/Demo';
 
 
 function App() {
@@ -60,15 +63,19 @@ function App() {
       {/* <ClassCounterOne /> */}
       {/* <HookCounterOne /> */}
 
-      <FunctionalComponent name='Manju' lastname='Reddy'> <p>
+      {/* <FunctionalComponent name='Manju' lastname='Reddy'> <p>
         hello child
       </p>
       </FunctionalComponent>
       <FunctionalComponent name='natha'/>
       <FunctionalComponent name='PM'/>
       {/* <ClassComponent name='Reddy'/> */}
-      <Counter1 />
-      <UseStateFunction />
+      {/* <Counter1 />
+      <UseStateFunction /> */}
+      {/* <Test /> */}
+      {/* <Form /> */}
+      <Demo />
+      
     </div>
   );
 }
