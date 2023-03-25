@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{Component, useState} from "react";
 
 // class ClassComponent extends Component{
 //     constructor(props) {
@@ -41,4 +41,41 @@ import React,{useState} from "react";
 //   )
 // }
 
-// export default ClassComponent;
+
+
+// class ClassComponent extends Component{
+//     render(){
+//         return(
+//             <div>Hello</div>
+//         )
+//     }
+// }
+
+
+class ClassComponent extends Component{
+    constructor(props) {
+      super(props)
+    
+      this.state = {
+         first:'God',
+         last:'Humans',
+         Games:['video Games','Outdoor Games', 'Indoor Games'],
+         family:{
+                father:'Head',
+                mother:'farmer',
+                brother:'business'      
+         }
+      }
+    }
+
+    render(){
+        return(
+            <div>
+                {this.state.family.father}
+            </div>
+        )
+    }
+}
+
+
+export default ClassComponent;

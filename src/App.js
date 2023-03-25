@@ -28,6 +28,12 @@ import UseStateFunction from './dailyparctice/useStateFunction';
 import Test from './components/Test';
 import Form from './dailyparctice/Form';
 import Demo from './dailyparctice/Demo';
+import TestPropes from './ComponentsTest/TryProps';
+import StateTest from './ComponentsTest/State';
+import Parent from './ComponentsTest/parent';
+import Goal from './ComponentsTest/ConditionalRendering';
+import UserLogin from './ComponentsTest/ConditionalRendering';
+import UseEffectTest from './ComponentsTest/UseEffectTest';
 
 
 function App() {
@@ -69,13 +75,23 @@ function App() {
       </FunctionalComponent>
       <FunctionalComponent name='natha'/>
       <FunctionalComponent name='PM'/>
-      {/* <ClassComponent name='Reddy'/> */}
+      <ClassComponent name='Reddy'/> */}
       {/* <Counter1 />
-      <UseStateFunction /> */}
+      <UseStateFunction />
       {/* <Test /> */}
       {/* <Form /> */}
-      <Demo />
-      
+      {/* <Demo /> */}
+
+
+
+
+      {/* <TestPropes name='Ram' lastname='God'/> */}
+      {/* <StateTest /> */}
+      {/* <Parent /> */}
+      {/* <UserLogin /> */}
+
+      <UseEffectTest />
+
     </div>
   );
 }
