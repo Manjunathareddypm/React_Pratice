@@ -34,6 +34,8 @@ import Parent from './ComponentsTest/parent';
 import Goal from './ComponentsTest/ConditionalRendering';
 import UserLogin from './ComponentsTest/ConditionalRendering';
 import UseEffectTest from './ComponentsTest/UseEffectTest';
+import ParentTest from './components/ParentTest';
+import Parent1 from './components/ParentTest';
 
 
 function App() {
@@ -89,8 +91,10 @@ function App() {
       {/* <StateTest /> */}
       {/* <Parent /> */}
       {/* <UserLogin /> */}
+      {/* <UseEffectTest /> */}
 
-      <UseEffectTest />
+
+      <Parent1 />
 
     </div>
   );

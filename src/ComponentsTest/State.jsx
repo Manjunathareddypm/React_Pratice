@@ -88,6 +88,27 @@ import React, { useState } from "react";
 //   );
 // }
 
+// function StateTest(){
+//     const [arr, setarr] = useState([10, 20, 30, 40, 50, 60, 70, 80])
+
+//     const addElements = () => {
+//         setarr((prev)=>([...prev, 90, 100]
+//         ))
+//     }
+   
+//     return(
+//         <div>
+//             <div style={{display:"flex", alignItems:"center"}}>
+//                 {
+//                     arr.map((items)=>
+//                     <div style={{width:'5vw', height:'5vh', backgroundColor:"blue", border:'1px solid black', display:"flex", flexDirection:"row", justifyContent:'Center', alignItems:"center"}} >{items}</div>)
+//                 }
+
+//             </div>
+//             <button onClick={addElements}>click to add elements</button>
+//         </div>
+//     )
+// }
 
 
 
